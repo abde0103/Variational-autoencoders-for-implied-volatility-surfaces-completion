@@ -8,6 +8,6 @@ new variational autoencoder architecture to the architecture proposed in [[1]](#
 utility in completing and generating arbitrage-free equity volatilities.
 
 ## References
-
+<a id="1">[1]</a> 
 Bergeron, M., Fung, N., Hull, J., Poulos, Z., and Veneris, A. Variational
 autoencoders: A hands-off approach to volatility, 2022.
