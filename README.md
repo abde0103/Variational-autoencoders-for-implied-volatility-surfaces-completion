@@ -15,20 +15,26 @@ how to generate and complete arbitrage-free implied volatility surfaces.
 
 
 **Section 1:** A brief introduction of the evolution of implied volatility models and the
-emergence of deep learning in finance.
-**Section 2:** A definintion of deterministic and variational autoencoders with a proof that
+emergence of deep learning in finance.\\
+
+**Section 2:** A definintion of deterministic and variational autoencoders with **a proof that
 I elaborated to show the relationship between autoencoders and principal component analysis
-(PCA).
+(PCA).\\
+
 **Section 3:** A definition of delta implied volatility surfaces and a characterization of
 static arbitrage in terms of delta instead of usual characterizations in terms of log-forward
-moneyness.
+moneyness.\\
+
 **Section 4:** The data interpolation method that I opted for to have a fixed size implied
 surface from listed options. A presentation of the new architecture that I suggested to improve
-the results of the cited paper [3].
+the results of the cited paper [[1]](#1).\\
+
 **Section 5:** All the numerical results of the new architecture and a comparison to the
-results yield by Bergeron et al’ variational autoencoder architecture on our internal data sets.
+results yield by Bergeron et al’ variational autoencoder architecture on our internal data sets.\\
+
 **Section 6:** Our method to complete missing points on partially observed implied volatility
-surfaces on illiquid options.
+surfaces on illiquid options.\\
+
 **Section 7:** A summary of our findings and ideas for further work that can be done
 beyond the scope of this project.
 
